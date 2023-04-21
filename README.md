@@ -5,7 +5,7 @@ This Flask demo app provides a simple user interface for querying 🌟 Star Wars
 
 1. Clone the repository: `git clone https://github.com/username/flask-swapi-demo.git`
 2. Install the dependencies: `pip install -r requirements.txt`
-3. Run the app: `python app.py`
+3. Run the app: `python src/main.py`
 4. Open your browser and navigate to `http://localhost:5000/`
 
 ## 🤝 Contributing
