@@ -1,6 +1,17 @@
 # Flask SWAPI Demo 🚀
 
-This Flask demo app provides a simple user interface for querying 🌟 Star Wars API (SWAPI). The app allows users to search and retrieve various data related to Star Wars, including characters, films, planets, species, starships, and vehicles.
+This Flask demo app provides a simple user interface for querying 🌟 [Star Wars API (SWAPI)](https://swapi.dev/). The app allows users to search and retrieve various data related to Star Wars, including characters, `films`, `planets`, `species`, `starships`, and `vehicles`.
+
+## 🌐 Visiting and Using the App
+You can visit and use the app at [philipwalsh.pythonanywhere.com](https://philipwalsh.pythonanywhere.com/).
+
+For example, you can retrieve data related to the second Star Wars film, "The Empire Strikes Back", by visiting https://philipwalsh.pythonanywhere.com/swapi/films/2.
+
+The app allows users to search and retrieve various data related to Star Wars, including characters, films, planets, species, starships, and vehicles. To retrieve data for a specific category, simply replace <category> in the URL with the desired category name (e.g., films, people, planets, species, starships, or vehicle).
+
+You can also retrieve data for a specific item within a category by appending its ID to the URL (e.g., `/swapi/films/2` retrieves data for the film with ID 2). Note that not all categories have IDs for all items.
+
+If the requested category or ID does not exist or is invalid, the app will return a "404 Not Found" error.
 
 ## 🛠️ Installation and Usage
 
